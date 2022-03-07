@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#logo{
+    margin-top: 25vh;
+    margin-bottom: 50px;
+    color: #EF6A59;
+}
+
+#form img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#form{
+    text-align: left;
+    width: 400px;
+    margin: auto;
+    box-shadow: 1px 1px 20px 10px #ef6a5927;
+    text-align: center;
+}
+
+#form > input{
+    display: block;
+    width: 70%;
+    height: 40px;
+    margin: auto;
+    border-radius: 5px;
+    border-color: #EF6A59;
+}
+
+#form  #email{
+    text-indent: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font: normal 12pt arial;
+}
+
+#form  #phone{
+    text-indent: 20px;
+    margin-bottom: 10px;
+    font: normal 12pt arial;
+}
+
+#form  #senha{
+    text-indent: 20px;
+    margin-bottom: 10px;
+    font: normal 12pt arial;
+}
+
+#form  #registrar{
+    background-color: #EF6A59;
+    color: #ffffff;
+    font: normal 12pt arial;
+    margin-bottom: 10px;
+}

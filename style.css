@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+}
+
+article{
+    width: 80vh;
+    height: 100vh;
+}
+
+img{
+    margin-top: 50px;
+}
+
+#esquerda{
+    color: #ffffff;
+    background-color: #FFB0A2;
+    font: bold 18pt arial;
+    text-align: center;
+}
+
+#direita{
+    background-color: white;
+}
+
+#topo{
+    text-indent: 100px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    font: bold 20pt arial;
+    text-align: left;
+
+}
+
+#topo #ahaa{
+    font: normal 10pt arial;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+#topo a{
+    text-decoration: none;
+    color: #EF6A59;
+    margin: auto;
+}
+
+#google{
+    width: 200px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#facebook{
+    width: 200px;
+    height: 40px;
+    background-color: #5A7AB8;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#login{
+    margin-bottom: 40px;
+    text-indent: 100px;
+}
+
+#login h2{
+    margin-top: 20px;
+}
+
+#form{
+    text-align: left;
+    width: 450px;
+    margin: auto;
+}
+
+#form > input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 15px 0px 10px 0px;
+    border-radius: 5px;
+    border-color: #EF6A59;
+}
+
+h2{
+    font: normal 12pt arial;
+    margin: auto;
+    text-align: start;
+}
+
+#direita  h2{
+    padding-top: 20px;
+    margin: auto;
+    vertical-align: middle;
+}
+
+#form  #email{
+    text-indent: 20px;
+    margin-bottom: 10px;
+    font: normal 12pt arial;
+}
+
+#form  #phone{
+    text-indent: 20px;
+    margin-bottom: 10px;
+    font: normal 12pt arial;
+}
+
+#form  #senha{
+    text-indent: 20px;
+    margin-bottom: 10px;
+    font: normal 12pt arial;
+}
+
+#form  #registrar{
+    background-color: #EF6A59;
+    color: #ffffff;
+    font: normal 12pt arial;
+}
+
+
+
+#form  #qualquer > label{
+    font: normal 11pt arial;
+    margin-bottom: 10px;
+}
+
+/*#google.active{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 15px 0px 10px 0px;
+    border-radius: 5px;
+    border-color: #EF6A59;
+}
+
+#facebook.active{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 15px 0px 10px 0px;
+    border-radius: 5px;
+    border-color: #EF6A59;
+}*/
+
+@media(max-width: 1050px){
+    main{
+        display: block;
+        text-align: center;
+    }
+    #esquerda{
+        width: 100%;
+    }
+    #direita{
+        width: 90%;
+        margin: auto;
+        right: 0px;
+        text-align: left;
+    }
+    #topo{
+        margin: none;
+        display: block;
+    }
+    #login{
+        text-indent: 0%;
+        display: block;
+        text-align: center;
+    }
+    #login h2{
+        margin-top: 20px;
+        text-align: center;
+    }
+    #form{
+        text-align: left;
+        width: 400px;
+        margin: none;
+    }
+}
